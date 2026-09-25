@@ -89,7 +89,7 @@ jobs:
 
       - name: Install cargo-semver-checks
         if: steps.changed_crates.outputs.packages != ''
-        uses: taiki-e/install-action@9bcaee1dcae34154180f412e2fa69355a7cda9f6  # v2.82.6
+        uses: taiki-e/install-action@dfae9bf3d6f6c6f20ef4ebb3486c01a51341ff12  # v2.87.18
         with:
           tool: cargo-semver-checks
 
